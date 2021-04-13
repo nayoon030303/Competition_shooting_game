@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\stage">
+      <UniqueIdentifier>{ce236c7c-38f5-42d3-a2a3-02c339768e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\manager">
+      <UniqueIdentifier>{b7a8c6a9-4f3a-4455-ba2c-4aec3aa56fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\other">
+      <UniqueIdentifier>{9fbb420b-c447-4877-a3b1-38ce1f3bfe3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\manager">
+      <UniqueIdentifier>{4cc52a3f-57bc-4829-ba49-29c9264a6221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stage">
+      <UniqueIdentifier>{38ef3df4-449e-42d1-a415-c2931f4b572c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\bullet">
+      <UniqueIdentifier>{057a6dbc-0493-495e-a880-66804d57089c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bullet">
+      <UniqueIdentifier>{0c9aeda8-f235-49c9-b82e-cd14de3d86e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\enemy">
+      <UniqueIdentifier>{286a9ea7-46c7-4842-b309-c2e80d1356db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy">
+      <UniqueIdentifier>{ce9f0934-8a39-4aab-8d4a-ffebfcd41cf5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShootingGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleStage.h">
+      <Filter>Header Files\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="FristStage.h">
+      <Filter>Header Files\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>Header Files\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBulletA.h">
+      <Filter>Header Files\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBulletB.h">
+      <Filter>Header Files\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyA.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyB.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBoss.h">
+      <Filter>Header Files\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBossF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstStage.cpp">
+      <Filter>Source Files\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleStage.cpp">
+      <Filter>Source Files\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>Source Files\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBulletA.cpp">
+      <Filter>Source Files\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBulletB.cpp">
+      <Filter>Source Files\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Hp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyA.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyB.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBoss.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBossF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ShootingGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ShootingGame.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
